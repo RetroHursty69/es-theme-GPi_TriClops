@@ -1,0 +1,224 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <zIndex>41</zIndex>       
+        <type>horizontal</type>
+        <pos>-0.16 0.215</pos>
+        <size>1.32 1.0</size>
+        <logoScale>1.14</logoScale>
+        <logoSize>0.3 0.3</logoSize>
+        <color>00000000</color>
+        <logoAlignment>top</logoAlignment>         
+        <maxLogoCount>5</maxLogoCount>
+      </carousel>
+
+      <text name="systemInfo">
+         <pos>0.0 0.8</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>ffffff</color>
+         <fontPath>./_inc/fonts/IRON MAN OF WAR 2 NCV.ttf</fontPath>
+	     <fontSize>0.12</fontSize>
+      </text>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <zIndex>40</zIndex>         
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/main.png</path>
+      </image>              
+   </view>
+</feature>
+
+   <view name="basic,detailed,video">
+      <helpsystem name="help">
+         <textColor>53b5e0</textColor>
+         <iconColor>53b5e0</iconColor>
+         <fontSize>0.02</fontSize> 
+         <pos>1.5 0.95</pos>                         
+      </helpsystem>
+   </view>
+   
+   <view name="system">
+      <helpsystem name="help">
+         <textColor>53b5e0</textColor>
+         <iconColor>53b5e0</iconColor>
+         <fontSize>0.03</fontSize>
+         <pos>1.3 0.95</pos>                     
+      </helpsystem>
+   </view>   
+
+   <view name="basic">
+      <textlist name="gamelist">
+         <zIndex>41</zIndex>      
+         <pos>0.462 0.02</pos>
+         <size>0.52 0.96</size>
+         <selectorColor>1c1c1c00</selectorColor>
+         <selectedColor>53b5e0</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/IRON MAN OF WAR 2 NCV.ttf</fontPath>
+         <fontSize>0.07</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <lineSpacing>1.1</lineSpacing>         
+         <alignment>center</alignment>
+      </textlist>
+   </view>
+
+   <view name="detailed,video">
+      <textlist name="gamelist">
+         <zIndex>41</zIndex>      
+         <pos>0.02 0.379</pos>
+         <size>0.38 0.606</size>
+         <selectorColor>1c1c1c00</selectorColor>
+         <selectedColor>53b5e0</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/IRON MAN OF WAR 2 NCV.ttf</fontPath>
+         <fontSize>0.07</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <lineSpacing>1.1</lineSpacing>         
+         <alignment>center</alignment>
+      </textlist>
+   </view>
+
+   <view name="basic">
+      <image name="logo">
+        <zIndex>41</zIndex>             
+         <pos>0.22 0.03</pos>
+         <maxSize>0.46 0.46</maxSize>
+      </image>     
+      <image name="background" extra="true">
+        <zIndex>41</zIndex>      
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>40</zIndex>          
+         <path>./_inc/images/basicoverlay.png</path>
+      </image>
+   </view>
+
+   <view name="video,detailed">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>40</zIndex>          
+         <path>./_inc/images/videooverlay.png</path>
+      </image>
+   </view> 
+   <view name="detailed,video">     
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/IRON MAN OF WAR 2 NCV.ttf</fontPath>
+         <fontSize>0.08</fontSize>        
+      </text>
+      <text name="md_lbl_rating">
+         <pos>1.77 0.375</pos>
+         <size>0.0625 0.025</size>
+         <zIndex>41</zIndex>         
+      </text>
+      <rating name="md_rating">
+         <pos>0.595 0.9</pos>
+         <size>0.09 0.09</size>
+         <zIndex>41</zIndex>         
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.33 0.03</pos>
+         <size>0.25 0.025</size>
+         <color>53b5e0</color>
+         <zIndex>41</zIndex>                  
+      </text>
+      <text name="md_players">
+         <pos>0.665 0.03</pos>
+         <size>0.15 0.025</size>
+         <zIndex>41</zIndex>                  
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.305 0.11</pos>
+         <size>0.25 0.025</size>
+         <color>53b5e0</color>
+         <zIndex>41</zIndex>                  
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.645 0.11</pos>
+         <size>0.25 0.025</size>
+         <zIndex>41</zIndex>         
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.24 0.27</pos>
+         <size>0.25 0.025</size>
+         <color>53b5e0</color>
+         <zIndex>41</zIndex>                  
+      </text>
+      <text name="md_genre">
+         <pos>0.56 0.27</pos>
+         <size>0.42 0.025</size>
+         <zIndex>41</zIndex>         
+      </text>
+      <text name="md_lbl_playcount">
+         <pos>0.27 0.19</pos>
+         <size>0.31 0.025</size>
+         <color>53b5e0</color>         
+         <zIndex>41</zIndex>                   
+      </text>
+      <text name="md_playcount">
+         <pos>0.62 0.19</pos>
+         <size>0.45 0.025</size>      
+         <zIndex>41</zIndex>         
+      </text>      
+      <text name="md_description">
+         <pos>1.45 0.77</pos>
+         <size>0.525 0.16</size>
+         <color>FFFFFF</color>
+      </text>
+   </view>
+   
+
+
+   <view name="detailed">
+      <image name="logo">
+        <zIndex>41</zIndex>      
+         <origin>0.5 0.05</origin>
+         <pos>0.152 0.02</pos>
+         <maxSize>0.35 0.35</maxSize>
+      </image>
+      <image name="md_image">
+        <zIndex>41</zIndex>      
+         <origin>0.5 0.5</origin>     
+         <pos>0.73 0.62</pos>
+         <maxSize>0.35 0.35</maxSize>
+      </image>
+   </view>
+
+   <view name="video">
+      <image name="logo">
+        <zIndex>41</zIndex>      
+         <origin>0.5 0.05</origin>
+         <pos>0.152 0.02</pos>
+         <maxSize>0.35 0.35</maxSize>
+      </image>
+      <video name="md_video">
+        <zIndex>41</zIndex>      
+         <origin>0.5 0.5</origin>     
+         <pos>0.73 0.62</pos>
+         <maxSize>0.35 0.35</maxSize>
+         <delay>1.00</delay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
+   </view>
+   
+</theme>
